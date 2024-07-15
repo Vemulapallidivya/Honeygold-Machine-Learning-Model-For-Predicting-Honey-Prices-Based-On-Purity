@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HoneyGoldBliss</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/index.css') }}">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+          <div id="lg">
+            <div id="ns">
+              <header id="name">HoneyGoldBliss&#128029;</header>
+              <nav id="nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#predict" id="pr">Predict</a></li>
+                </ul>
+              </nav>
+            </div>
+              <div id="tq">
+              <h1 id="title">HoneyMetrics:Predicting Purity and Price</h1>
+              <p id="quo">"In every drop of pure honey,lies the essence of dilignet bees and the purest essence of flowers"</p>
+              </div>
+           </div>
+           <!--about-->
+           <div id="about">
+            <nav id="nava">
+                <ul>
+                    <li><a href="#lg" class="active">Home</a></li>
+                    <li><a href="#predict" id="pr">Predict</a></li>
+                </ul>
+              </nav>
+            <div id="ac">
+              <aside id="au">About us &#127855;&#128029; :</aside>
+              <main id="cont">
+                 <p>At HoneyMetrics,we are dedicated to revolutionizing the honey industry by providing cutting-edge solutions for predicting purity and price.with our innovative technology and data-driven approach,we empower consumers,producers,and distributors to make informed decisions about honey quality and market value.
+                    <br><br>our platform utilizes advanced algorithms and machine learning models to analyze various factors influencing honey purity,including floral sources,geographical origin,processing methods,and more.By harnessing the power of big data,we deliver accurate predictions that ensure transparency and trust in the honey supply chain.
+                    <br><br>whether you're a consumer seeking high-quality honey products or beekeeper looking to optimize production and pricing strategies,HoneyMetrics is your go-to resource for reliable insights and actionable intelligence.join us in shaping the future of the honey industry and promoting integrity throughout the entrie value chain.
+                 </p>
+              </main>
+            </div>
+           </div>
+           <!--predict-->
+           <div id="predict">
+            <header id="namep">HoneyGoldBliss&#128029;</header>
+            <p id="qu">Explore the purity Honey Price Prediction Form</p>
+              <div id="formbox">
+                <h1><b>Please Fill the Below Details</b></h1>
+                <form action="/inner_page" method="POST">
+                    <label for="cs">CS:</label>
+                    <input type="number" id="cs" name="cs" step="0.01" required>
+                    <br>
+                    <label for="D">Density:</label>
+                    <input type="number" id="D" name="D" step="0.01" required>
+                    <br>
+                    <label for="W">WC:</label>
+                    <input type="number" id="w" name="w"  step="0.01" required>
+                    <br>
+                    <label for="P">pH:</label>
+                    <input type="number" id="P" name="p" step="0.01" required>
+                    <br>
+                    <label for="E">EC:</label>
+                    <input type="number" id="E" name="E"  step="0.01" required>
+                    <br>
+                    <label for="f">F:</label>
+                    <input type="number" id="f" name="f"  step="0.01" required>
+                    <br>
+                    <label for="g">G:</label>
+                    <input type="number" id="g" name="g"  step="0.01" required>
+                    <br>
+                    <label for="po">pollen analysis:</label>
+                    <input type="number" id="po" name="po"  step="0.01"  required>
+                    <br>
+                    <label for="vis">viscosity:</label>
+                    <input type="number" id="vis" name="vis" step="0.01" required>
+                    <br>
+                    <label for="pu">purity:</label>
+                    <input type="number" id="pu" name="pu" placeholder="Enter point values"step="0.06" required>
+                    <br>
+                    <button id="bu">Predict</button>
+                </form>
+              </div>
+           </div>
+
+    </body>
+</html>

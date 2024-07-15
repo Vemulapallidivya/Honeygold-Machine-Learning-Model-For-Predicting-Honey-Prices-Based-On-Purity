@@ -1,0 +1,275 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/img.jpg");
+    background-size: 100% 800px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+
+}
+#lg{
+    background: linear-gradient(to bottom right,rgba(96, 92, 92, 0.5),rgba(168,168,168,0.5));
+    width: 100%;
+    height: 750px;
+}
+#ns{
+    position: sticky;
+}
+#name{
+    font-size: 40px;
+    margin: 0 5%;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+    position: static;
+
+}
+
+#nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin:-55px 100px;
+    position: sticky;
+
+}
+#nav li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+}
+#nav li a.active{
+    color:gold;
+}
+#pr{
+    background-color: skyblue;
+    padding: 2px;
+    border-radius: 25px;
+}
+@media screen and (min-width:0) and (max-width:768px) {
+    #nav ul{
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin-top:25px;
+        display: block;         
+    }
+    #nav li{
+      float:left;
+    }
+    #nav li a{
+      padding:10px; 
+    }
+}
+#tq{
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+
+}
+#title{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    color: white;
+}
+#quo{
+    font-size: 18px;
+    font-family:sans-serif;
+    font-style: italic;
+    margin-top: -15px;
+    color: whitesmoke;
+}
+/*ABout*/
+#about{
+    width: 100%;
+    height: 750px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+#nava ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin:50px 100px;
+    position: sticky;
+
+}
+#nava li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+}
+#nava li a.active{
+    color:gold;
+}
+#ac{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 10%;
+}
+#au{
+    font-size: 40px;
+    margin-left: 8%;
+    margin-top: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#cont{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5%;
+    font-family:'Times New Roman', Times, serif;
+}
+@media screen and (min-width:0) and (max-width:768px) {
+    #ac{
+        display: grid;
+        margin-left: 50px;
+        margin-top: 10%;
+    }
+    #au{
+        font-size: 40px;
+        margin-left: 0;
+        margin-top: -50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+    #cont{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: 5%;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+/*predict*/
+#predict{
+    width: 100%;
+    height: 780px;
+    padding: 10px;
+    background-color:rgb(240, 222, 115);
+}
+#namep{
+    font-size: 40px;
+    margin: 0 5%;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#qu{
+    text-align: center;
+    font-size: 25px;
+}
+#formbox{
+    width:35%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 32%;
+    padding: 10px;
+}
+#formbox h1{
+    text-align: center;
+}
+#formbox label{
+    font-size: 20px;
+    margin-left: 20%;
+    
+}
+#formbox input[type=number]{
+    border: 1px solid beige;
+    border-radius: 10px;
+    margin: 10px ;
+}
+#formbox input[type=number]#cs{
+    margin-left: 101px ;
+}
+#formbox input[type=number]#D{
+    margin-left:65px ;
+}#formbox input[type=number]#w{
+    margin-left: 93px ;
+}#formbox input[type=number]#P{
+    margin-left: 101px ;
+}#formbox input[type=number]#E{
+    margin-left: 102px ;
+}#formbox input[type=number]#f{
+    margin-left: 119px ;
+}#formbox input[type=number]#g{
+    margin-left: 115px ;
+}#formbox input[type=number]#vis{
+    margin-left: 60px ;
+}
+#formbox input[type=number]#pu{
+    margin-left: 85px ;
+}
+#bu{
+    cursor: pointer;
+    margin: 15px 45%;
+    font-size: 20px;
+    background-color: white;
+    color:black;
+    padding: 5px 8px;
+    border-radius: 12px;
+
+}
+@media screen and (min-width:0) and (max-width:768px) {
+    #predict{
+        height: auto;
+    }
+    #formbox{
+        width:55%;
+    }
+    #formbox input[type=number]#cs{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+        
+    }
+    #formbox input[type=number]#D{
+        margin-left:210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#w{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#P{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#E{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#f{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#g{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#po{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }#formbox input[type=number]#vis{
+        margin-left: 210px ;
+        position: relative;
+        bottom:28px;
+    }
+    #formbox input[type=number]#pu{
+        margin-left: 210px ;
+        position: relative;
+        bottom:20px;
+    }
+}

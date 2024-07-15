@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/img2.jpeg");
+    background-size: 100% 400%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+#name{
+    font-size: 40px;
+    margin: 0 5%;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+    position: static;
+}
+ul{
+    list-style-type: none;
+    margin:-50px 90% -10px  ;
+
+}
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+}
+#ho{
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 25px;
+}
+#output{
+    text-align: center;
+    color: white;
+    margin-top:10%;
+}
